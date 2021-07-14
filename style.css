@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.event-container {
+  background-color: mediumblue;
+}
+.football-event {
+  display: flex;
+  padding-top: 45px;
+}
+
+.event-name {
+  padding: 50px 25px 200px 150px;
+}
+.event-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 95%;
+}
+
+.button {
+  background-color: mediumvioletred;
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+  margin-top: -30px;
+}
+.event-picture img {
+  width: 556px;
+  height: 438px;
+  padding: 50px 56px 200px 70px;
+
+  padding-left: 220px;
+}
+.event-picture:hover img {
+  width: 650px;
+  height: 450px;
+  transition: width 2s ease-in-out;
+}
+/* ---/player-container starts---- */
+
+.players-container {
+  display: flex;
+  justify-content: center;
+}
+.players-details {
+  margin-top: 55px;
+  /* background-color:rgba(211, 211, 211, 0.308); */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player-box {
+  width: 330px;
+  height: 485px;
+  background-color: #ffffff;
+  margin: 20px 20px 20px 15px;
+  box-shadow: 0 4px 60px 0 rgba(0, 0, 0, 0.11),
+    0 6px 20px 0 rgba(0, 0, 0, 0.103);
+}
+.player-resume {
+  padding: 15px;
+}
+
+.player-info {
+  width: 300px;
+  height: 154px;
+  font-size: 16px;
+  color: gray;
+}
+.player-name {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: black;
+}
+.player-image img {
+  width: 300px;
+  height: 256px;
+}
+/* ----footer area---- */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.footer-logo img {
+  width: 483px;
+  height: 110px;
+}
+.social-icon img {
+  width: 32px;
+  height: 32px;
+}
+.article {
+  display: flex;
+}
+.article-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  margin-left: 75px;
+}
+.article-text {
+  margin-left: 25px;
+}
+.article-text h3,
+p {
+  color: grey;
+}
+hr {
+  border: 2px solid gray;
+}
+.more-article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---video section-- */
+.video-section {
+  text-align: center;
+}
+.video-headline {
+  font-size: 45px;
+  color: lightslategrey;
+  font-weight: 700;
+}
+.youtube-video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 75px;
+}
+.video {
+  margin: 15px;
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 668px) {
+  .event-container {
+    width: 100%;
+  }
+  .football-event {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .event-name {
+    flex-direction: column;
+  }
+  .event-picture {
+    flex-direction: column;
+  }
+  .pla;
+}
